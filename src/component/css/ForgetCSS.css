@@ -1,0 +1,51 @@
+.my-pagea {
+  margin: auto;
+  width: 290px;
+  margin-top:50px;
+}
+.my-pagea button.btn.btn-primary.btn-block.btn-flat {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
+  font-size: 14px;
+  margin-top: 5px;
+  padding: 6px;
+  background: #097de8;
+}
+
+.my-pagea input[type="email"] {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
+  font-size: 14px;
+  margin-top: 28px;
+}
+
+.my-pagea p {
+  font-size: 13px;
+  color: #000;
+}
+.my-page h2 img {
+  width: 24px;
+}
+.my-pagea h2 {
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+  color:#333;
+}
+.m-logo img {
+  width: 150%;
+  height:150%;
+}
+.m-logo {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+.my-pagea a {
+  font-size: 14px;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+}

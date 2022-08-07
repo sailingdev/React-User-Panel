@@ -1,0 +1,226 @@
+  /*header*/
+ul {
+    list-style: none;
+    
+}
+.last-head{
+	display: flex;
+}
+.nav-header {
+    justify-content: space-between;
+    display: flex;
+    background: rebeccapurple;
+    color: white;
+    height: 50px;
+    padding: 10px 7px 1px;
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0px 20px;
+    width: 35px;
+    height: 35px;
+    -webkit-border-radius: 50% !important;
+    -moz-border-radius: 50% !important;
+    border-radius: 50% !important;
+}
+.h3-1 {
+    padding: 28px;
+}
+    /* tabs*/
+    ul.nav.nav-pills {
+    padding: 0px 92px;
+    border-bottom: 1px solid #e4e4e4;
+}
+/*a.nav-link.active {
+    border-bottom: 1px solid red;
+    border-radius: 0;
+}*/
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    border-bottom: 1px solid red;
+    color: #3b7dca !important;
+    background-color: #fafafb !important;
+    border-radius: 0;
+}
+
+/*profile containte*/
+.profile-userpic-2 img {
+  float: none;
+  margin: 0 auto;
+  width: 30%;
+  height: 30%;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}
+.main {
+    text-align: center;
+}
+h4.mr {
+    font-weight: 700;
+    margin-bottom: 37px;
+}
+h4.mr-1 {
+    margin-top: 30px;
+    color: #557fb5;
+    font-weight: 700;
+    
+}
+.d-fl {
+    margin: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+p.p-large {
+    font-size: 20px;
+    font-weight: 900;
+}
+button.upload-avatar {
+    padding: 9px;
+    border: none;
+    background: #55fbfbcc;
+    color: white;
+    width: 72%;
+    letter-spacing: 2px;
+    font-variant: all-petite-caps;
+    font-size: large;
+    border-radius: 10px;
+}
+button.delete-btn {
+    margin: 30px;
+    border: none;
+    background: transparent;
+}
+h2.biography {
+    font-size: 26px;
+    font-weight: 800;
+    margin: 20px;
+}
+.di-fl {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle !important;
+}
+.bt-fl {
+    margin-right: 84px;
+    margin-top: 10px;
+}
+button.btn-cancel {
+    padding: 10px 20px;
+    background: white;
+    border: 2px solid #76fbfc;
+}
+button.btn-save {
+    padding: 10px 20px;
+    background: #04f7f7;
+    border: 2px solid #76fbfc;
+}
+h6.h6-1 {
+    font-size: 16px;
+    font-weight: 800;
+}
+p.dscr {
+    padding: 8px;
+    border: 1px solid #e6e6e6;
+}
+.title {
+    width: 98%;
+}
+.di-2 {
+    display: flex;
+}
+h6.h6-1 {
+    margin: 25px 0px;
+    font-size: 16px;
+    font-weight: 800;
+}
+h5.h5-li {
+    margin: 35px 0px;
+    font-size: 19px;
+    font-weight: 700;
+}
+input.dscr {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dedede;
+}
+.main-1 {
+    padding: 15px;
+}
+.bt-fl {
+    float: right;
+    margin-right: 84px;
+    margin-top: 10px;
+}
+.bt-fl-1 {
+    text-align: right;
+    margin-right: 50px;
+}
+select.dscr {
+    background: white;
+    height: 37px;
+    width: 100%;
+    border: 1px solid #dedede;
+}
+.exe {
+    display: flex;
+}
+/*
+upload resume*/
+
+div {
+  position: relative;
+  overflow: hidden;
+}
+/*****************************************
+  upload button styles
+******************************************/
+.file-upload {
+	position: relative;
+	display: inline-block;
+}
+
+.file-upload__label {
+  display: block;
+  padding: 1em 2em;
+  color: #fff;
+  background: #50ceea;
+  border-radius: .4em;
+  transition: background .3s;
+  
+  &:hover {
+     cursor: pointer;
+     background: #000;
+  }
+}
+    
+.file-upload__input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 1;
+    width:0;
+    height: 100%;
+    opacity: 0;
+}
+
+
+.btn {
+    background: #36e8f1d9;
+    }
+.btn-primary1 {
+    color: #fff;
+    background-color: #2deaead4;
+    border-color: #6eeded;
+}
+@media (max-width: 767px){
+	ul.nav.nav-pills {
+    padding: 0px 46px;
+}
+.bt-fl {
+    margin-right: 5px;
+    margin-top: 0px;
+}
+}

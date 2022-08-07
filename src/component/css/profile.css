@@ -1,0 +1,140 @@
+.pr-img {
+  display: flex;
+}
+
+.pr-name {
+  margin-left: 24px;
+}
+.exe {
+  display: flex;
+}
+h6.per-info {
+  margin: 30px 0px;
+  font-size: 15px;
+  color: #0091ff;
+  font-weight: 600;
+}
+h6.pro-info {
+  margin: 30px 0px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn-default {
+  margin: 20px 0px;
+  border: none;
+  color: #e61616;
+  padding: 0;
+  text-align: left;
+}
+.pr-img {
+  margin: 0px 16px;
+  display: flex;
+}
+.ddd {
+  margin: 0px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fdf {
+  width: 20px;
+  height: 3px;
+  background: red;
+ 
+}
+input.dscr {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #e6e4e4;
+}
+
+select.sel {
+  background: white;
+  width: 100%;
+  padding: 6px;
+  border: 1px solid #e6e4e4;
+}
+h6.h6-1 {
+  font-size: 15px;
+  color: #424040;
+}
+h5.h5-li {
+  font-size: 18px;
+  margin: 21px 0px;
+  font-weight: 700;
+}
+.notify {
+  display: flex;
+  margin: 4px 0px;
+}
+span.spn {
+  margin-left: 11px;
+}
+button.btn-save {
+  border: none;
+  padding: 5px 10px;
+  background: #2591ff;
+  color: white;
+}
+.bt-fl.col-md-12 {
+  text-align: right;
+}
+.fd-fl {
+  display: flex;
+  justify-content: space-between;
+}
+button.bt-edit {
+  padding: 9px 20px 12px;
+  height: 34px;
+  margin-top: 17px;
+  color: white;
+  border: none;
+  background:#3479bb;
+}
+h3.edit-heading {
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
+  font-family: auto;
+  font-size: 19px;
+}
+.placehh input::placeholder {
+  color: #939696 !important;
+}
+
+a {
+  display: inline-block;
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
+  font-family: auto;
+}
+
+h6.h6-1 {
+  font-size: 18px;
+  color: #424040;
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
+  font-family: auto;
+}
+
+input.dscr {
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
+  font-family: auto;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #d8d1d1 ;
+}
+body {
+     font-size: 1.55rem; 
+}
+
+svg {
+  width: 50px !important;
+  overflow: hidde;
+  vertical-align: middle;
+}
+
+
+img.react-phone-number-input__icon-image {
+  width: 50px;
+}

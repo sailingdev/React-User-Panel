@@ -1,0 +1,300 @@
+.nav-header {
+  justify-content: space-between;
+  display: flex;
+  
+  color: white;
+  height: 50px;
+  padding: 10px 7px 1px;
+}
+a.nav-link.active {
+    outline: none;
+    margin: 0px;
+    font-weight: 800;
+    border: none;
+    width: 100%;
+    background: #13579a;
+    border-radius: 0;
+    color: #20e2fe;
+}
+
+
+.heder-middle {
+    width: 65%;
+}
+ul.menuu {
+    height: 18px;
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    margin-top: 12px;
+}
+ul.nav.nav-pills {
+    display: flex;
+    justify-content: space-between;
+}
+.nav>li {
+    width: 100%;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.profile-userpic img {
+  float: none;
+  margin: 0px 20px;
+  width: 35px;
+  height: 35px;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  border-radius: 50% !important;
+}.h3-1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 13px;
+    font-weight: 800;
+    font-variant: all-petite-caps;
+}
+  /* tabs*/
+ 
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  border-bottom: 1px solid red;
+  color: #3b7dca !important;
+  background-color: #fafafb !important;
+  border-radius: 0;
+}
+
+/*profile containte*/
+.profile-userpic-2 img {
+float: none;
+margin: 0 auto;
+width: 100px;
+height: 100px;
+-webkit-border-radius: 50% !important;
+-moz-border-radius: 50% !important;
+border-radius: 50% !important;
+}
+ul.nav.nav-pills {
+    background: #1d71c5;
+    padding: 0px;
+   
+}
+
+.main {
+    padding: 26px;
+    color: black;
+    text-align: center;
+    margin: 4px;
+    background: white;
+}
+h4.mr {
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+h4.mr-1 {
+  margin-top: 30px;
+  color: #00e2fe;
+  font-weight: 700;
+  
+}
+.d-fl {
+  margin: 36px;
+  display: flex;
+  justify-content: space-between;
+}
+p.p-large {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+button.upload-avatar {
+    padding: 7px 0px;
+    border: none;
+    background:#1861a8;
+    color: white;
+    width: 175px;
+    letter-spacing: 0px;
+    font-variant: all-petite-caps;
+    font-size: large;
+    border-radius: 8px;
+}
+button.delete-btn {
+  margin: 30px;
+  border: none;
+  background: transparent;
+}
+h2.biography {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 20px;
+}
+.di-fl {
+  display: flex;
+  justify-content: space-between;
+  vertical-align: middle !important;
+}
+
+.bt-fl {
+  margin-right: 84px;
+  margin-top: 10px;
+}
+button.btn-cancel {
+    background: #0b407a;
+    color: #ffffff;
+    padding: 3px 5px;
+    border: 1px solid #00e2fe;
+}
+
+h6.h6-1 {
+    margin: 7px 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+p.dscr {
+  padding: 8px;
+  border: 1px solid #e6e6e6;
+}
+.title {
+    margin: 5px;
+    width: 100%;
+}
+.di-2 {
+  display: flex;
+}
+.head-main {
+    background: linear-gradient(45deg,#053d75 , #257fd2);
+    color: white;
+}
+li.nav-item {
+    width: 100% !important;
+    margin: 0;
+    color: black;
+    background: #13579a;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.nav-link.active:hover {
+    background: white;
+    border-radius: 0;
+    color: #020202;
+
+}
+h5.h5-li {
+    border-bottom: 2px solid #e2e1e1;
+    margin: 13px 0px;
+    font-size: 19px;
+    font-weight: 700;
+    width: fit-content;
+}
+input.dscr {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #e2e1e1;
+}
+button.btn-save {
+    background: #00e2fe;
+    color: #151414;
+    padding: 4px 14px;
+    border: 2px solid #13589b;
+}
+    ul {
+        list-style: none;
+    }
+    ul.last-head {
+        display: flex;
+    }
+    
+    
+select {
+    background: white;
+    width: 100%;
+    padding: 4px;
+    border:1px solid #e2e1e1;
+}
+.main-1 {
+    height: 100%;
+    margin: 4px;
+    color: black;
+    border: 1px solid #e2e1e1;
+    background: #ffffff;
+    padding: 19px;
+}
+.bt-fl {
+    background: #13589b;
+    margin: 38px;
+    float: right;
+}
+.bt-fl-1 {
+  text-align: right;
+  margin-right: 50px;
+}
+select.dscr {
+  background: white;
+  height: 37px;
+  width: 100%;
+  border: 1px solid #dedede;
+}
+.exe {
+  display: flex;
+}
+.main-form {
+    BACKGROUND: WHITE;
+    color: black;
+    padding: 29px;
+}
+input.dscr {
+    margin: 0px 2px;
+}
+::placeholder {
+    color:grey;
+    
+  }
+  label {
+    color: white;
+    background: #1b69b4;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+
+/* Resume Upload */
+
+.file-upload__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 1;
+  width:0;
+  height: 100%;
+  opacity: 0;
+}
+
+.btn {
+    color: white;
+    border: none;
+    background: #064b8e;
+}
+a.fsda {
+    color: white;
+}
+.btn-primary1 {
+  color: #fff;
+  background-color: #2deaead4;
+  border-color: #6eeded;
+}
+@media (max-width: 767px){
+ul.nav.nav-pills {
+  padding: 0px 46px;
+}
+.bt-fl {
+  margin-right: 5px;
+  margin-top: 0px;
+}
+}

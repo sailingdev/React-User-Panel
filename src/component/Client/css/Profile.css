@@ -1,0 +1,31 @@
+.msgError {
+  position: absolute;
+  width: 181px;
+  background: #3b903f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  margin: 25px 683px;
+}
+.Error {
+  position: absolute;
+  width: 181px;
+  background: red;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  margin: 25px 683px;
+}
+
+h6.h6p-1 {
+  font-size: 18px;
+  color: #424040;
+  font-feature-settings: "pcap", "c2pc";
+  font-variant: all-petite-caps;
+  letter-spacing: 1px;
+  font-family: auto;
+}

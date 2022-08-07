@@ -1,0 +1,252 @@
+.header-desktop {
+  background: #6624e6 !important;
+}
+.bg-overlay--blue {
+  background: rgba(102, 36, 230, 0.81);
+}
+a.hd-link {
+  letter-spacing: 1px;
+  font-size: 14px;
+  color: white;
+  font-weight: 700;
+}
+.account-item > .content > a {
+  color: #e5e5e5;
+  }
+.account-item > .content > a {
+  color: #e5e5e5;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.noti__item i {
+  font-size: 30px;
+  color: #e5e5e5;
+}
+.logo {
+  
+  text-align: center;
+}
+img.logowidth {
+  width: 100%;
+}
+.menu-sidebar .logo {
+  background:#d4d9da;
+  }
+  ul.hd-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.menu {
+  width: 40%;
+}
+.nav-tabs {
+  border-bottom: none;
+}
+.nav-link {
+  display: initial;
+  padding: .6rem 0rem;
+}
+ .nav-tabs {
+  
+  padding: 0px 0px 0px 0px;
+  margin: 0px 60px;
+}
+.nav-tabs .nav-item {
+  background: #e5e5e5;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-bottom: 3px solid #885eda;
+  color: #495057;
+  background-color: #e5e5e5;
+}
+.navbar-sidebar .navbar__list li.active > a {
+  border-right: 2px solid  #350790;
+  color: #350790;
+}
+.navbar-sidebar .navbar__list li.active > a {
+  color: #ee640a;
+}
+.nav-tabs .nav-link {
+  margin: 0px;
+  
+}
+i.fa.fa-ellipsis-h {
+  color: #ee640a;
+}
+button.btn.btn-secondary.btn-sm {
+  background: #153b4a;
+}
+
+.au-btn-plus {
+  background: #6625e6;
+}
+.au-btn-load {
+  background: #3f05b1;
+}
+.nav-tabs .nav-item {
+  
+  width: 200px;
+}
+  .i11 img {
+  border: 2px solid #0e0e0e;
+  margin-left: -5px;
+}
+.card {
+  border: 2px solid #ee640a;
+  margin-bottom: 30px;
+}
+  .Dropdown-title-1 {
+  text-align: right;
+  padding: 0.25rem 1.25rem;
+}
+.h3-name {
+  font-weight: 700;
+  font-size: 18px;
+}
+.i11 {
+  display: flex;
+  justify-content: space-around;
+}
+.iim {
+  text-align: center;
+  margin-left: 18px;
+}
+p.p-p {
+  font-size: 14px;
+}
+.progress {
+  margin-top: 1.2rem;
+  overflow: hidden;
+  height: 13px;
+  }
+strong.str {
+  font-size: 12px;
+}
+.card-cont {
+  text-align: left;
+  padding: 0.25rem 1.25rem;
+  line-height: 30px;
+}
+h1.hd-pr-1 {
+  margin: 14px 60px;
+}
+header.header-mobile.d-block.d-lg-none {
+  background: #6624e6;
+}
+.profile-card-1 {
+font-family: 'Open Sans', Arial, sans-serif;
+position: relative;
+float: left;
+overflow: hidden;
+width: 100%;
+color: #ffffff;
+text-align: center;
+height:368px;
+border:none;
+}
+.profile-card-1 .background {
+width:100%;
+vertical-align: top;
+opacity: 0.9;
+-webkit-filter: blur(5px);
+filter: blur(5px);
+ -webkit-transform: scale(1.8);
+transform: scale(2.8);
+}
+.profile-card-1 .card-content {
+width: 100%;
+padding: 15px 25px;
+position: absolute;
+left: 0;
+top: 50%;
+}
+.profile-card-1 .profile {
+border-radius: 50%;
+position: absolute;
+bottom: 50%;
+left: 50%;
+max-width: 100px;
+opacity: 1;
+box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+border: 2px solid rgba(255, 255, 255, 1);
+-webkit-transform: translate(-50%, 0%);
+transform: translate(-50%, 0%);
+}
+.profile-card-1 h2 {
+  color: white;
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.profile-card-1 h2 small {
+display: block;
+font-size: 15px;
+margin-top:10px;
+}
+.profile-card-1 i {
+display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 50%;
+  margin:0 5px;
+}
+.profile-card-1 .icon-block{
+  float:left;
+  width:100%;
+  margin-top:15px;
+}
+.profile-card-1 .icon-block a{
+  text-decoration:none;
+}
+.profile-card-1 i:hover {
+background-color:#fff;
+color:#2E3434;
+text-decoration:none;
+}
+.fa-3x {
+  font-size: 1.2em;
+}
+
+@media (max-width: 992px){
+.card-cont {
+  text-align: center;
+  padding: 0.25rem 1.25rem;
+  line-height: 30px;
+}  
+img.logowidth {
+  width: 156px;
+}
+}
+@media (max-width: 992px){
+.menu {
+  width: 100%;
+
+}  
+}
+@media (max-width: 991px){
+.header-button {
+  padding: 9px 0px;
+  margin-top: 10px;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-top: 1px solid white;
+}
+}
+@media (max-width: 991px){
+.header-desktop {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 106px;
+}
+}
